@@ -1,7 +1,13 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
+# Allow only specific folders
+!Assets/
+!Packages/
+!ProjectSettings/
+!UserSettings/
+
+# Ignore everything else at root
+/*
+
+# Re-apply original Unity ignores for the included folders
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
